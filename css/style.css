@@ -168,6 +168,6 @@ body {
 }
 
 .signup-section {
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 /*# sourceMappingURL=style.css.map */
