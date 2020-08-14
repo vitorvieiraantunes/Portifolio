@@ -19,28 +19,196 @@ $primary-color: #255177;
     filter: saturate(.7);
 }
 
-#modalImg
-{
-    width: auto;
-    max-height: 800px;
-}
+
 .span1{
     color: $primary-color;
     font-weight: 800;
 }
+.span2{
+    color: #64a9e6;
+    font-weight: 800;
+}
 h4{
-    color: $primary-color;
+    color: #64a9e6;
     font-weight: 800;
 }
 
-@media (max-width: 990px)
-{
-   
-    #modalDialog {
-        width: 100%;
-        max-width: 100%;
-        margin: 0.5rem 0;
-        
-       }
+
+
+body {
+    font-size: 1.2rem;
+}
+.navbar-brand {
+    
+    font-size: 1.6rem;
+ 
 }
 
+.fa-css3-alt{
+    color: #2196f3;
+  }
+  .fa-html5{
+    color: #f16528;
+  }
+  .fa-js-square{
+    color: #ffd93a;
+  }
+  .fa-sass{
+    color: #cf649a;
+  }
+  .fa-java{
+    color: #2196f3;
+  }
+  .fa{
+    color: #2196f3;
+  }
+  .fa{
+    color: #2196f3;
+  }
+  .fa{
+    color: #2196f3;
+  }
+  .fa{
+    color: #2196f3;
+  }
+
+  .about-section {
+    padding-bottom: 10rem;
+}
+
+// #mainNav.navbar-shrink {
+//     background-color: #202020;
+// }
+// #mainNav.navbar-shrink .navbar-brand {
+//     color: rgba(255, 255, 255, 0.5);
+// }
+// #mainNav.navbar-shrink .nav-link {
+//     color: rgba(255, 255, 255, 0.5);
+// }
+// #mainNav .navbar-brand {
+//     color: rgba(255, 255, 255, 0.5);
+// }
+// #mainNav .navbar-toggler {
+//     color:rgba(255, 255, 255, 0.5);
+//     border: 1px solid rgba(255, 255, 255, 0.5);
+//   }
+
+// #mainNav {
+//     background-color: #202020;
+// }
+
+.bg-dark {
+    background-color: #202020 !important;
+}
+
+// .navbar-light .navbar-nav .nav-link {
+//     color: rgba(255, 255, 255, 0.6);
+//   }
+
+//   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+//     color: rgba(255, 255, 255, 0.4);
+//   }
+//   .navbar-light .navbar-nav .nav-link.disabled {
+//     color: rgba(255, 255, 255, 0.8);
+//   }
+
+//   .navbar-light .navbar-nav .show > .nav-link,
+// .navbar-light .navbar-nav .active > .nav-link,
+// .navbar-light .navbar-nav .nav-link.show,
+// .navbar-light .navbar-nav .nav-link.active {
+//   color:  rgba(255, 255, 255, 0.3);
+// }
+
+.btn-primary {
+    background-color: #1b3a55;
+    border-color: #1b3a55;
+  }
+
+
+  .btn-primary:hover {
+    background-color: #142a3d;
+    border-color: #142a3d;
+  }
+  .btn-primary:focus, .btn-primary.focus {
+    background-color: #142a3d;
+    border-color: #142a3d;
+    box-shadow: 0 0 0 0.2rem rgba(123, 175, 172, 0.5);
+  }
+  .btn-primary.disabled, .btn-primary:disabled {
+    background-color: #1b3a55;
+    border-color: #1b3a55;
+  }
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    background-color: #142a3d;
+    border-color: #142a3d;
+
+    
+  }
+
+
+//   @media (max-width: 990px)
+// {
+   
+//     #modalDialog {
+//         width: 100%;
+//         max-width: 100%;
+//         margin: 0.5rem 0;
+        
+//        }
+// }
+//   #modalImg
+// {
+//     width: auto;
+//     max-height: 800px;
+// }
+
+//   @media (min-width: 576px) {
+//     .modal-dialog { max-width: none; }
+//   }
+  
+  .modal{
+    max-width:  98%;
+    padding: 0;
+    margin: auto;
+
+  }
+  .modal-dialog {
+    max-width: 98%;
+    padding: 0;
+    text-align: center;
+  }
+  
+ #modalImg
+ {
+    max-width: 98%;
+    max-height: 90vh;
+    object-fit: contain;    
+ }
+
+
+.bg-light {
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+#mainNav .navbar-toggler {
+    color: black;
+    border: 0px none;
+}
+#mainNav .navbar-toggler {
+    padding: 0;
+    height: 100%;
+}
+.fa-bars{
+    font-size: 1.6rem;
+}
+
+.masthead h1 {
+    //font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    //font-size: 2.5rem;
+    //line-height: 2.5rem;
+    //letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+}
