@@ -1,0 +1,48 @@
+.fa-css3-alt {
+  color: #2196f3;
+}
+
+.fa-html5 {
+  color: #f16528;
+}
+
+.fa-js-square {
+  color: #ffd93a;
+}
+
+.fa-sass {
+  color: #cf649a;
+}
+
+.fa-java {
+  color: #2196f3;
+}
+
+#featuredProjectImg {
+  -webkit-filter: saturate(0.7);
+          filter: saturate(0.7);
+}
+
+#modalImg {
+  width: auto;
+  max-height: 800px;
+}
+
+.span1 {
+  color: #255177;
+  font-weight: 800;
+}
+
+h4 {
+  color: #255177;
+  font-weight: 800;
+}
+
+@media (max-width: 990px) {
+  #modalDialog {
+    width: 100%;
+    max-width: 100%;
+    margin: 0.5rem 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
