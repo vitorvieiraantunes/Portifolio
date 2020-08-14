@@ -187,7 +187,7 @@ body {
 
 
 .bg-light {
-    background: linear-gradient(to top,rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 75%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.7) 100%);
 }
 
 #mainNav .navbar-toggler {
@@ -213,5 +213,8 @@ body {
             background-clip: text;
 }
 .masthead{
+    background-attachment: fixed;
+}
+.signup-section{
     background-attachment: fixed;
 }

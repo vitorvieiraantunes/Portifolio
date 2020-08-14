@@ -137,8 +137,8 @@ body {
 }
 
 .bg-light {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), color-stop(75%, rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.8)));
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(75%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.7) 100%);
 }
 
 #mainNav .navbar-toggler {
@@ -164,6 +164,10 @@ body {
 }
 
 .masthead {
+  background-attachment: fixed;
+}
+
+.signup-section {
   background-attachment: fixed;
 }
 /*# sourceMappingURL=style.css.map */
