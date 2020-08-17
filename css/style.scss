@@ -76,48 +76,13 @@ body {
     padding-bottom: 10rem;
 }
 
-// #mainNav.navbar-shrink {
-//     background-color: #202020;
-// }
-// #mainNav.navbar-shrink .navbar-brand {
-//     color: rgba(255, 255, 255, 0.5);
-// }
-// #mainNav.navbar-shrink .nav-link {
-//     color: rgba(255, 255, 255, 0.5);
-// }
-// #mainNav .navbar-brand {
-//     color: rgba(255, 255, 255, 0.5);
-// }
-// #mainNav .navbar-toggler {
-//     color:rgba(255, 255, 255, 0.5);
-//     border: 1px solid rgba(255, 255, 255, 0.5);
-//   }
 
-// #mainNav {
-//     background-color: #202020;
-// }
+
 
 .bg-dark {
     background-color: #202020 !important;
 }
 
-// .navbar-light .navbar-nav .nav-link {
-//     color: rgba(255, 255, 255, 0.6);
-//   }
-
-//   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-//     color: rgba(255, 255, 255, 0.4);
-//   }
-//   .navbar-light .navbar-nav .nav-link.disabled {
-//     color: rgba(255, 255, 255, 0.8);
-//   }
-
-//   .navbar-light .navbar-nav .show > .nav-link,
-// .navbar-light .navbar-nav .active > .nav-link,
-// .navbar-light .navbar-nav .nav-link.show,
-// .navbar-light .navbar-nav .nav-link.active {
-//   color:  rgba(255, 255, 255, 0.3);
-// }
 
 .btn-primary {
     background-color: #1b3a55;
@@ -146,25 +111,6 @@ body {
   }
 
 
-//   @media (max-width: 990px)
-// {
-   
-//     #modalDialog {
-//         width: 100%;
-//         max-width: 100%;
-//         margin: 0.5rem 0;
-        
-//        }
-// }
-//   #modalImg
-// {
-//     width: auto;
-//     max-height: 800px;
-// }
-
-//   @media (min-width: 576px) {
-//     .modal-dialog { max-width: none; }
-//   }
   
   .modal{
     max-width:  98%;
@@ -203,19 +149,40 @@ body {
 }
 
 .masthead h1 {
-    //font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    //font-size: 2.5rem;
-    //line-height: 2.5rem;
-    //letter-spacing: 0.8rem;
     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
             background-clip: text;
 }
-.masthead{
-    background-attachment: fixed;
-}
-.signup-section{
+ .masthead{
+     background-attachment: fixed;
+ }
+ .signup-section{
     background-attachment: fixed;
     
+ }
+
+@media (min-width: 1200px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 75%;
+    }
+  }
+
+.col-lg-6{
+    background-color: black;
+    text-align: left;
 }
+.imgRight{
+    text-align: right;
+}
+@media (max-width: 576px){
+  .masthead h1 {
+    font-size: 1.4em
+  }
+}
+@media (max-width: 375px){
+  .masthead h1 {
+    font-size: 1em
+  }
+}
+
