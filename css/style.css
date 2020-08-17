@@ -137,8 +137,8 @@ body {
 }
 
 .bg-light {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), color-stop(75%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7)));
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.7) 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), color-stop(50%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.7) 100%);
 }
 
 #mainNav .navbar-toggler {
@@ -200,5 +200,33 @@ body {
 
 #aboutContainer {
   padding-top: 30px;
+}
+
+#projectsTitle {
+  font-weight: 700;
+  margin-bottom: 3em;
+}
+
+.signup-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #64a9e6;
+}
+
+.signup-section .card h4 {
+  font-size: 0.8rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.signup-section .card hr {
+  border-color: #64a9e6;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.signup-section .container {
+  max-width: 1140px;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

@@ -14,3 +14,8 @@ progImg2.addEventListener("click", () => {
     document.getElementById("modalImg").src = "assets/img/stats_screenshot.jpg";
 
 });
+const progImg3 = document.getElementById("progImg3");
+progImg3.addEventListener("click", () => {
+    document.getElementById("modalImg").src = "assets/img/StudentLoanCalc.jpg";
+
+});
