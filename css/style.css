@@ -33,6 +33,11 @@
   font-weight: 800;
 }
 
+.span3 {
+  color: white;
+  font-weight: 800;
+}
+
 h4 {
   color: #64a9e6;
   font-weight: 800;
@@ -236,5 +241,15 @@ body {
 
 .masthead h1 {
   letter-spacing: 0.5rem;
+}
+
+.fa-file-pdf {
+  color: #f83c3c;
+}
+
+#sansMap {
+  height: 800px;
+  max-height: 100%;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
