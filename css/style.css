@@ -230,7 +230,7 @@ body {
   font-size: 1rem;
 }
 
-.navbar {
-  max-width: 100%;
+#mastHeadH2 {
+  margin-bottom: 1.5rem !important;
 }
 /*# sourceMappingURL=style.css.map */
