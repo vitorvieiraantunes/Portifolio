@@ -233,4 +233,8 @@ body {
 #mastHeadH2 {
   margin-bottom: 1.5rem !important;
 }
+
+.masthead h1 {
+  letter-spacing: 0.5rem;
+}
 /*# sourceMappingURL=style.css.map */
