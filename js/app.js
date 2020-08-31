@@ -11,7 +11,7 @@ progImg1.addEventListener("click", () => {
 });
 const progImg2 = document.getElementById("progImg2");
 progImg2.addEventListener("click", () => {
-    document.getElementById("modalImg").src = "assets/img/stats_screenshot.jpg";
+    document.getElementById("modalImg").src = "assets/img/Scaler_screenshot.jpg";
 
 });
 const progImg3 = document.getElementById("progImg3");
@@ -25,6 +25,11 @@ progImg4.addEventListener("click", () => {
     document.getElementById("modalImg").src = "assets/img/Du Project.jpg";
 
 });
+const progImg5 = document.getElementById("progImg5");
+progImg5.addEventListener("click", () => {
+    document.getElementById("modalImg").src = "assets/img/stats_screenshot.jpg";
+
+});
 const gisFeaturedImg = document.getElementById("gisFeaturedImg");
 gisFeaturedImg.addEventListener("click", () => {
     document.getElementById("modalImg").src = "assets/img/ParkDemo_screenshot.jpg";
@@ -33,10 +38,5 @@ gisFeaturedImg.addEventListener("click", () => {
 const gisImg1 = document.getElementById("gisImg1");
 gisImg1.addEventListener("click", () => {
     document.getElementById("modalImg").src = "assets/img/CrimeMap_screenshot.jpg";
-
-});
-const gisImg2 = document.getElementById("gisImg2");
-gisImg2.addEventListener("click", () => {
-    document.getElementById("modalImg").src = "assets/img/Sans_screenShot.jpg";
 
 });
